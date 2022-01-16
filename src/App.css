@@ -65,7 +65,7 @@ p{margin-bottom: 0.5rem;}
 .choose{
   position: relative;
   display: flex;
-  width:800px;
+  width:900px;
 }
 .main_search{
   display: flex;
@@ -81,9 +81,26 @@ p{margin-bottom: 0.5rem;}
   
 }
 
+
+
 .dropdown-menu{
-  width:250px;
+  
+ top:70px;
+ left:-5px;
+ 
+  width:860px;
+ 
+  flex-wrap: wrap;
+  padding:15px;
+  border-top: none;
+  display:none;
 }
+.dropdown-menu div{
+  width:250px;
+  display: inline-block;
+  left:-5px;
+}
+
 .container-fluid2{
  width: inherit;
  display: flex;
@@ -238,4 +255,8 @@ h6{
   text-align: left;
   align-items: center;
   vertical-align: middle;
+}
+.dropdown2{
+  width:500px;
+
 }

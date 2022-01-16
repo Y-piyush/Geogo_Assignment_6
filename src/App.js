@@ -15,7 +15,16 @@ function App() {
     <div className="App">
       <nav class="navbar navbar-expand-lg  bg-transparent ">
            <div class="container-fluid">
-                 <a class="navbar-brand " href="#">Navbar</a>
+                {/*  */}
+                 <div>
+                      <div>
+                        <img src="https://static.99acres.com/universalapp/img/nnacres_white.png"/>
+                      </div>
+                      <div>
+                         
+                      </div>
+                 </div>
+                 {/*  */}
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
                  </button>
@@ -59,44 +68,44 @@ function App() {
                <div class="dropdown">
                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                    All Residentials</button>
-                    <div class="choose">
-                         <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                    <div class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
+                         <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
-                        <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                        <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
-                        <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                        <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
-                        <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                        <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
-                        <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                        <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
-                        <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                        <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
-                        <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                        <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
-                        <div class="dropdown-menu">
-                              <input class="dropdown-item" type="checkbox" value="" id="flexCheckDefault"/>
+                        <div class="mb-3 form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                               <label class="dropdown-label" for="flexCheckDefault">
                               Default checkbox</label>
                         </div>
@@ -192,7 +201,7 @@ function App() {
                          </div>
                     </div>
                </div>
-          </div>
+          
           
           <h3>Popular localities</h3>
                <h6>The most explored localities in Dhanbad</h6>
@@ -284,11 +293,9 @@ function App() {
                               <hr></hr>   
                          </div>
                     </div>
-                    
-                    
                </div>
           </div>
-          
+          </div>
      </div>
   );
 }
